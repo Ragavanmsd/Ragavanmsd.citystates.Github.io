@@ -1,0 +1,53 @@
+
+ html{
+     background-color:rgb(235, 203, 22);
+     text-align: center;
+     font-weight: 200;
+     font-size: 20px;
+     font-family:monospace;
+
+ }
+ * ,*:after ,*:before{
+    box-sizing: border-box;
+}
+.search-form {
+    min-width: 500px;
+    margin:50px;
+    
+  }
+input{
+    border: 2px solid #777;
+    height: 35px;
+    width: 80%;
+    padding: 20px;
+  border-radius: 5px;
+}
+.suggestions li {
+    margin: 0;
+    padding: 10px;
+    background: white;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+span.population {
+    font-size: 15px;
+  }
+  
+  .hl {
+    background: #ffc600;
+  }
